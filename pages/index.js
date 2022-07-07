@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Layout  from "../components/Layout";
+import Hero from "../components/Hero";
+import BgAnimation from "../components/BackgroundAnimation";
 // import Accomplishments from '../components/Accomplishments/Accomplishments';
-// import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
-// import Hero from "../components/Hero/Hero";
 // import Projects from "../components/Projects/Projects";
 // import Technologies from "../components/Technologies/Technologies";
 // import Timeline from "../components/TimeLine/TimeLine";
@@ -14,11 +14,11 @@ const Home = () => {
         <title>Shivam Bhasin</title>
       </Head>
       <Layout>
-        {/* <Section grid center>
+        <section className="grid items-center mx-auto w-[calc(100vw-32px)] md:w-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-2">
           <Hero />
           <BgAnimation />
-        </Section>
-        <Timeline />
+        </section>
+        {/* <Timeline />
         <Projects />
         <Technologies /> */}
       </Layout>
