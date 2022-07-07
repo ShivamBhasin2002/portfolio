@@ -4,14 +4,14 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      title: ['"Space Grotesk"','sans-serif'],
-      main: ['system-ui','sans-serif']
+      title: ['"Space Grotesk"', "sans-serif"],
+      main: ["system-ui", "sans-serif"],
     },
     screens: {
-      sm: '480px',
-      md: '640px',
-      lg: '768px',
-      xl: '1024px' 
+      sm: "480px",
+      md: "640px",
+      lg: "768px",
+      xl: "1024px",
     },
     colors: {
       primary: {

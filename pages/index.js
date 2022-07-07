@@ -1,6 +1,5 @@
-// import { Layout } from "../components/layout/Layout";
-// import { Section } from "../styles/GlobalComponents";
 import Head from "next/head";
+import Layout  from "../components/Layout";
 // import Accomplishments from '../components/Accomplishments/Accomplishments';
 // import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
 // import Hero from "../components/Hero/Hero";
@@ -14,15 +13,15 @@ const Home = () => {
       <Head>
         <title>Shivam Bhasin</title>
       </Head>
-      {/* <Layout>
-        <Section grid center>
+      <Layout>
+        {/* <Section grid center>
           <Hero />
           <BgAnimation />
         </Section>
         <Timeline />
         <Projects />
-        <Technologies />
-      </Layout> */}
+        <Technologies /> */}
+      </Layout>
     </>
   );
 };
