@@ -39,7 +39,7 @@ const WorkExperience = () => {
           <JobCards
             position="Backend Developer Intern"
             institution="Credence Analytics"
-            duration="Oct 2021 ~ May 2021"
+            duration="Oct 2020 ~ May 2021"
           >
             <MdWork size="70px" />
           </JobCards>
