@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import DarkModeButton from "./DarkModeButton";
 
 import Header from './Header';
 import ScrollToTop from "./ScrollToTop";
@@ -9,9 +10,9 @@ const variants = {
   exit: { opacity: 0, x: 0, y: -100 },
 };
 
-const Layout = ({ children }) => {
+const Layout = ({ children, darkMode, onClick }) => {
   return (
-    <div className="max-w-[1280px] w-full m-auto">
+    <div className="max-w-[1280px] w-full m-auto pb-8">
       <Header />
       <motion.main
         initial="hidden"
@@ -22,7 +23,11 @@ const Layout = ({ children }) => {
       >
         {children}
       </motion.main>
-      <ScrollToTop/>
+      <footer className="text-accent-dark/40 text-xl w-full text-center">
+        © 2022 Shivam Bhasin. All Rights Reserved.
+      </footer>
+      <ScrollToTop />
+      <DarkModeButton darkMode={darkMode} onClick={onClick} />
     </div>
   );
 };

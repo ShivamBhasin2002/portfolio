@@ -20,7 +20,7 @@ module.exports = {
       },
       background1: {
         DEFAULT: "#efefef",
-        dark: "#17181F",
+        dark: "#1f202e",
       },
       accent: {
         DEFAULT: "#6C72CB",

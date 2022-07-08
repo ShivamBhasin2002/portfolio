@@ -1,10 +1,5 @@
-import { useState,useEffect } from "react";
 
-const BackgroundAnimation = () => {
-  const [darkMode, setdarkMode] = useState(false);
-  useEffect(() => {
-    setdarkMode(document.querySelector("html").classList.contains("dark"));
-  }, [darkMode]);
+const BackgroundAnimation = ({darkMode}) => {
   return (
     <>
       {darkMode ? (
