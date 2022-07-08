@@ -2,7 +2,7 @@
 
 ### [Live Site](https://shivam-bhasin.netlify.app)
 
-![Portfolio Website](public/screenshot.jpg)
+![Portfolio Website](public/screenshot.png)
 
 This is a sample of my personal portfolio website.  
 It's built up using Next.js, ReactJs, and Tailwind CSS.
