@@ -2,7 +2,7 @@ import Head from "next/head";
 import Layout  from "../components/Layout";
 import Hero from "../components/Hero";
 import BgAnimation from "../components/BackgroundAnimation";
-// import AboutMe from "../components/AboutMe";
+import About from "../components/About";
 // import Accomplishments from '../components/Accomplishments/Accomplishments';
 // import Projects from "../components/Projects/Projects";
 // import Technologies from "../components/Technologies/Technologies";
@@ -18,7 +18,7 @@ const Home = () => {
           <Hero />
           <BgAnimation />
         </section>
-        {/* <AboutMe /> */}
+        <About />
         {/* <Projects />
         <Technologies /> */}
       </Layout>

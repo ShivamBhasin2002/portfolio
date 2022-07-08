@@ -8,10 +8,10 @@ module.exports = {
       main: ["system-ui", "sans-serif"],
     },
     screens: {
-      sm: "480px",
-      md: "640px",
-      lg: "768px",
-      xl: "1024px",
+      sm: "482px",
+      md: "642px",
+      lg: "770px",
+      xl: "1026px",
     },
     colors: {
       primary: {
