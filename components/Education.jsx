@@ -1,8 +1,11 @@
-import {FaSchool, FaUniversity} from 'react-icons/fa';
+import { FaSchool, FaUniversity } from "react-icons/fa";
 
-const EducationCard = ({ children, course, institution, duration, gpa }) => (
+const EducationCard = ({ icon, course, institution, duration, gpa }) => (
   <div className="flex flex-row max-w-[450px] min-h-[110px] m-2 p-4 bg-primary-[0.1%] bg-primary/[0.05] dark:bg-primary-dark/[0.03] rounded-[10px] items-center gap-8">
-    <span>{children}</span>
+    <span>
+      {icon === "school" ? <FaSchool size="6rem" /> : ""}
+      {icon === "university" ? <FaUniversity size="6rem" /> : ""}
+    </span>
     <span className="flex-grow flex flex-col justify-center">
       <h4 className="font-bold font-title text-[18px] lg:text-[22px] text-primary dark:text-primary-dark">
         {course}
@@ -17,7 +20,7 @@ const EducationCard = ({ children, course, institution, duration, gpa }) => (
   </div>
 );
 
-const Education = () => {
+const Education = ({ education }) => {
   return (
     <section>
       <article
@@ -29,22 +32,9 @@ const Education = () => {
           Education
         </h2>
         <div className=" pb-[3.6rem] flex flex-wrap">
-          <EducationCard
-            course="B.Tech Computer Science (Cloud Computing)"
-            institution="Manav Rachna International Institute Of Research And Studies"
-            duration="2020 ~ 2024"
-            gpa="8.5 CGPA"
-          >
-            <FaUniversity size="70px" />
-          </EducationCard>
-          <EducationCard
-            course="CBSE ~ class 10th and 12th"
-            institution="Green Fields School"
-            duration="Until 2020"
-            gpa="94 %"
-          >
-            <FaSchool size="70px" />
-          </EducationCard>
+          {education.map((ed, i) => (
+            <EducationCard key={i} {...ed} />
+          ))}
         </div>
       </article>
     </section>

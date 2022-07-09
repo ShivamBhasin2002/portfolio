@@ -2,17 +2,13 @@ import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import {TbPlayerTrackNext} from "react-icons/tb";
-const Intro = () => {
+
+const Intro = ({intro}) => {
   const designations = useRef();
   const typed = useRef();
   useEffect(() => {
     typed.current = new Typed(designations.current, {
-      strings: [
-        "Student",
-        "Full Stack Developer",
-        "Freelancer",
-        "Growth Enthusiast",
-      ],
+      strings: intro.designations,
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
@@ -39,13 +35,12 @@ const Intro = () => {
               ref={designations}
             />
           </span>
-          The purpose of this portfolio website is to quickly become familiar
-          with my few projects and general information about me.
+          {intro.text}
           <br />
           Have a look at my{" "}
           <a
             className="font-medium text-button hover:text-primary dark:hover:text-primary-dark cursor-pointer transition-all rounded-[5px] hover:animate-pulse"
-            href="https://drive.google.com/file/d/1dT7XOOOsskl_0k6FSPp84Hk5JM31bv_c/view?usp=sharing"
+            href={intro.resumeLink}
             title="my resume"
             target="_blank"
             rel="noopener noreferrer"

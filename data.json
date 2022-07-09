@@ -1,0 +1,58 @@
+{
+  "header": {
+    "userTag": "@_shivambhasin",
+    "name": "Shivam Bhasin",
+    "socials": {
+      "github": "https://github.com/ShivamBhasin2002",
+      "linkedin": "https://www.linkedin.com/in/shivam-bhasin-465233166/",
+      "twitter": "https://twitter.com/_shivambhasin",
+      "medium": "https://medium.com/@_shivambhasin",
+      "mail": "mailto://bhasinshivam2002@gmail.com"
+    }
+  },
+  "intro": {
+    "designations": [
+      "Student",
+      "Full Stack Developer",
+      "Freelancer",
+      "Growth Enthusiast"
+    ],
+
+    "text": "The purpose of this portfolio website is to quickly become familiar with my few projects and general information about me",
+    "resumeLink": "https://drive.google.com/file/d/1dT7XOOOsskl_0k6FSPp84Hk5JM31bv_c/view?usp=sharing"
+  },
+  "about": {
+    "image": "/profileImage.jpeg",
+    "info": "Skilled and passionate full stack web developer with more than 2yrs of experience in building building various fun porjects and working on industry projects. Love learning new things and progressing alongside ambitious and adaptable people. Positive reputation for quality work, timely construction, and finishing projects at estimated budget as a freelancer.\n Being a growth influencer I love to spread the things I learn to others and also learn from amazing people."
+  },
+  "education": [
+    {
+      "course": "B.Tech Computer Science (Cloud Computing)",
+      "institution": "Manav Rachna International Institute Of Research And Studies",
+      "duration": "2020 ~ 2024",
+      "gpa": "8.5 CGPA",
+      "icon": "university"
+    },
+    {
+      "course": "CBSE ~ class 10th and 12th",
+      "institution": "Green Fields School",
+      "duration": "Until 2020",
+      "gpa": "94 %",
+      "icon": "school"
+    }
+  ],
+  "jobs": [
+    {
+      "position": "Frontend React Freelancer",
+      "institution": "Manav Rachna International Institute Of Research And Studies",
+      "duration": "Jun 2022 ~ 2024",
+      "icon": "remote"
+    },
+    {
+      "position": "Backend Developer Intern",
+      "institution": "Credence Analytics",
+      "duration": "Oct 2020` ~ May 2021",
+      "icon": "work"
+    }
+  ]
+}

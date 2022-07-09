@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const About = () => {
+const About = ({about}) => {
   return (
     <section className="relative">
       <article
@@ -11,20 +11,13 @@ const About = () => {
         <h2 className="relative w-full font-title font-[800] text-[32px] md:text-[48px] lg:text-[56px] leading-[40px] md:leading-[48px] lg:leading-[56px] h-[40px] md:h-[48px] lg:h-[56px] max-w-[100%] mb-[8px] md:mb-[12px] lg:mb-[16px] overflow-visible">
           About Me{" "}
           <img  
-            src={"/profileImage.jpeg"}
+            src={about.image}
             alt="my picture"
             className="absolute right-[10px] xl:right-[-100px] top-[-55px] xl:top-0 h-[100px] xl:h-[300px] rounded-[50%] border-2 xl:border-8 border-background1-dark dark:border-background1"
           />
         </h2>
         <p className="max-w-[670px] lg:max-w-[800px] text-[14px] md:text-[18px] lg:text-[22px] leading-[24px] md:leading-[32px] lg:leading-[36px] text-primary dark:text-primary-dark font-[300] pb-[3.6rem]">
-          Skilled and passionate full stack web developer with more than 2yrs of
-          experience in building building various fun porjects and working on
-          industry projects. Love learning new things and progressing alongside
-          ambitious and adaptable people. Positive reputation for quality work,
-          timely construction, and finishing projects at estimated budget as a
-          freelancer. <br />
-          Being a growth influencer I love to spread the things I learn to
-          others and also learn from amazing people.
+          {about.info}
         </p>
       </article>
     </section>

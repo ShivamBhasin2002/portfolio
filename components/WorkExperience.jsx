@@ -1,8 +1,11 @@
 import { MdWork, MdMapsHomeWork } from "react-icons/md";
 
-const JobCards = ({ children, position, institution, duration }) => (
+const JobCards = ({ icon, position, institution, duration }) => (
   <div className="flex flex-row max-w-[450px] min-h-[110px] m-2 p-4 bg-primary-[0.1%] bg-primary/[0.05] dark:bg-primary-dark/[0.03] rounded-[10px] items-center gap-8">
-    <span>{children}</span>
+    <span>
+      {icon === "remote" ? <MdMapsHomeWork size="6rem" /> : ""}
+      {icon === "work" ? <MdWork size="6rem" /> : ""}
+    </span>
     <span className="flex-grow flex flex-col justify-center">
       <h4 className="font-bold font-title text-[18px] lg:text-[22px] text-primary dark:text-primary-dark">
         {position}
@@ -17,7 +20,7 @@ const JobCards = ({ children, position, institution, duration }) => (
   </div>
 );
 
-const WorkExperience = () => {
+const WorkExperience = ({ jobs }) => {
   return (
     <section>
       <article
@@ -29,20 +32,9 @@ const WorkExperience = () => {
           Work Experience
         </h2>
         <div className=" pb-[3.6rem] flex flex-wrap">
-          <JobCards
-            position="Frontend React Freelancer"
-            institution="Manav Rachna International Institute Of Research And Studies"
-            duration="Jun 2022 ~ 2024"
-          >
-            <MdMapsHomeWork size="70px" />
-          </JobCards>
-          <JobCards
-            position="Backend Developer Intern"
-            institution="Credence Analytics"
-            duration="Oct 2020 ~ May 2021"
-          >
-            <MdWork size="70px" />
-          </JobCards>
+          {jobs.map((job,i) => (
+            <JobCards key={i} {...job} />
+          ))}
         </div>
       </article>
     </section>

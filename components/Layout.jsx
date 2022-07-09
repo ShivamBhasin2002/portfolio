@@ -10,10 +10,10 @@ const variants = {
   exit: { opacity: 0, x: 0, y: -100 },
 };
 
-const Layout = ({ children, darkMode, onClick }) => {
+const Layout = ({ children, darkMode, onClick, header }) => {
   return (
     <div className="max-w-[1280px] w-full m-auto pb-8">
-      <Header />
+      <Header header={header} />
       <motion.main
         initial="hidden"
         animate="enter"
@@ -24,7 +24,7 @@ const Layout = ({ children, darkMode, onClick }) => {
         {children}
       </motion.main>
       <footer className="text-accent-dark/40 text-xl w-full text-center">
-        © 2022 Shivam Bhasin. All Rights Reserved.
+        © 2022 {header.name}. All Rights Reserved.
       </footer>
       <ScrollToTop />
       <DarkModeButton darkMode={darkMode} onClick={onClick} />
