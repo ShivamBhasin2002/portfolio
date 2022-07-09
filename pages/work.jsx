@@ -47,24 +47,24 @@ const Works = ({ header, projects }) => {
               My Work
             </h2>
             <section className="w-[80%] flex flex-row flex-wrap gap-8 justify-evenly">
-              {projects.myProjects.map((project) => (
-                <Project project={project} />
+              {projects.myProjects.map((project, i) => (
+                <Project key={i} project={project} />
               ))}
             </section>
             <h2 className="font-title font-[800] text-[32px] md:text-[48px] lg:text-[56px] mb-[8px] md:mb-[12px] lg:mb-[16px] overflow-visible mt-8 text-center">
               Collaborations
             </h2>
             <section className="w-[80%] h-auto flex flex-row flex-wrap gap-8 justify-evenly">
-              {projects.collaborations.map((project) => (
-                <Project project={project} />
+              {projects.collaborations.map((project,i) => (
+                <Project key={i} project={project} />
               ))}
             </section>
             <h2 className="font-title font-[800] text-[32px] md:text-[48px] lg:text-[56px] mb-[8px] md:mb-[12px] lg:mb-[16px] overflow-visible mt-8 text-center">
               Open Source Contributions
             </h2>
             <section className="w-[80%] h-auto flex flex-row flex-wrap gap-8 justify-evenly">
-              {projects.openSource.map((project) => (
-                <Project project={project} />
+              {projects.openSource.map((project,i) => (
+                <Project key={i} project={project} />
               ))}
             </section>
           </main>
