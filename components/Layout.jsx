@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import DarkModeButton from "./DarkModeButton";
-
 import Header from './Header';
 import ScrollToTop from "./ScrollToTop";
 
@@ -12,7 +11,7 @@ const variants = {
 
 const Layout = ({ children, darkMode, onClick, header }) => {
   return (
-    <div className="max-w-[1280px] w-full m-auto pb-8">
+    <div className="max-w-[1280px] w-full min-h-screen h-max m-auto relative">
       <Header header={header} />
       <motion.main
         initial="hidden"
@@ -23,7 +22,9 @@ const Layout = ({ children, darkMode, onClick, header }) => {
       >
         {children}
       </motion.main>
-      <footer className="text-accent-dark/40 text-xl w-full text-center">
+      <footer
+        className="text-accent-dark/40 text-xl w-full text-center absolute bottom-[20px]"
+      >
         © 2022 {header.name}. All Rights Reserved.
       </footer>
       <ScrollToTop />

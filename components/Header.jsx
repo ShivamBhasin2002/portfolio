@@ -4,7 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { BsMedium } from "react-icons/bs";
 
-const SocialMedia = ({socials}) => (
+const SocialMedia = ({ socials }) => (
   <div className="flex justify-center items-center gap-4">
     <a
       className="transition-all text-icons dark:text-icons-dark rounded-[50px] p-[8px] md:hover:scale-[1.2] md:hover:text-[white] md:hover:bg-button md:dark:hover:bg-button-dark"
@@ -54,14 +54,14 @@ const SocialMedia = ({socials}) => (
   </div>
 );
 
-const Header = ({header}) => {
+const Header = ({ header }) => {
   return (
     <header className="flex flex-row flex-auto justify-between py-8 px-4 sticky top-0 bg-bodyBgColor dark:bg-bodyBgColor-dark z-[21] ">
-        <div className="flex flex-row content-center text-[1.5rem] md:text-[2.5rem] font-bold font-title">
-          <Link href="/#main">
-            <a className="flex items-center">{header.userTag}</a>
-          </Link>
-        </div>
+      <div className="flex flex-row content-center text-[1.5rem] md:text-[2.5rem] font-bold font-title">
+        <Link href="/#main">
+          <a className="flex items-center">{header.userTag}</a>
+        </Link>
+      </div>
       <ul className="hidden lg:flex justify-center items-center gap-[2rem] mx-2">
         <li>
           <Link href="/#about">
@@ -77,15 +77,8 @@ const Header = ({header}) => {
             </a>
           </Link>
         </li>
-        <li>
-          <Link href="/#experience">
-            <a className="text-[1.5rem] md:text-[2rem] leading-[32px] p-2 md:p-0 text-primary dark:text-primary-dark hover:text-button dark:hover:text-button-dark cursor-pointer transition-colors">
-              Experience
-            </a>
-          </Link>
-        </li>
       </ul>
-      <SocialMedia socials={header.socials}/>
+      <SocialMedia socials={header.socials} />
     </header>
   );
 };

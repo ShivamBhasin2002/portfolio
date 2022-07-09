@@ -24,16 +24,14 @@ const Home = ({ jobs, education, about, intro, header }) => {
       >
         <section
           id="main"
-          className="grid items-center mx-auto w-[calc(100vw-32px)] md:w-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-2"
+          className="grid items-center mx-auto w-[calc(100vw-32px)] md:w-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-2 h-screen top-[-86px]"
         >
           <Hero intro={intro} />
           <BgAnimation darkMode={darkModeActive} />
         </section>
         <About about={about} />
-        <section id="experience">
           <Education education={education} />
           <WorkExperience jobs={jobs} />
-        </section>
       </Layout>
     </>
   );

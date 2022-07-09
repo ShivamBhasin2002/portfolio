@@ -3,14 +3,14 @@ const BackgroundAnimation = ({darkMode}) => {
   return (
     <>
       {darkMode ? (
-        <div className="hero-image">
+        <div className="hero-image sticky top-[100px]">
           <svg
             className="BgAnimation__svg"
             viewBox="0 0 602 602"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g opacity="0.15">
+            <g opacity="0.25">
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"
@@ -370,7 +370,7 @@ const BackgroundAnimation = ({darkMode}) => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g opacity="0.15">
+            <g opacity="0.25">
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"

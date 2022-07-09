@@ -22,7 +22,7 @@
     "resumeLink": "https://drive.google.com/file/d/1dT7XOOOsskl_0k6FSPp84Hk5JM31bv_c/view?usp=sharing"
   },
   "about": {
-    "image": "/profileImage.jpeg",
+    "image": "profileImage.jpeg",
     "info": "Skilled and passionate full stack web developer with more than 2yrs of experience in building building various fun porjects and working on industry projects. Love learning new things and progressing alongside ambitious and adaptable people. Positive reputation for quality work, timely construction, and finishing projects at estimated budget as a freelancer.\n Being a growth influencer I love to spread the things I learn to others and also learn from amazing people."
   },
   "education": [
@@ -54,5 +54,85 @@
       "duration": "Oct 2020` ~ May 2021",
       "icon": "work"
     }
-  ]
+  ],
+  "projects": {
+    "myProjects": [
+      {
+        "name": "IWFCLI",
+        "description": "Oclif based backend CLI tool to automate manual setup of micro-services.",
+        "link": "https://npm.io/package/@credenceanalytics/iwfcli",
+        "image": "iwfcli.png",
+        "languages": [],
+        "tags": []
+      },
+      {
+        "name": "Sorting Visualizer",
+        "description": "Web App built using HTML/CSS/JS to visualize all basic sorting algorithms.",
+        "link": "https://shivambhasinsortingvisualizer.netlify.app/",
+        "image": "sorting-visualizer.png",
+        "languages": [],
+        "tags": []
+      },
+      {
+        "name": "Indian Campsites",
+        "description": "Website to view and outsource campsights.",
+        "link": "https://github.com/ShivamBhasin2002/IndianCampSights",
+        "image": "indian-campsites.png",
+        "languages": [],
+        "tags": []
+      },
+      {
+        "name": "Student Report Management System",
+        "description": "Web App built using HTML/CSS/JS to perform CRUD operations on student records and reports.",
+        "link": "https://github.com/ShivamBhasin2002/gfsRepManagementSystem",
+        "image": "gfs-report-management-system.png",
+        "languages": [],
+        "tags": []
+      }
+    ],
+    "collaborations": [
+      {
+        "name": "Drop Count",
+        "description": "App to check households water usage efficiency and create awareness to save water.",
+        "link": "https://github.com/ShivamBhasin2002/DropCount",
+        "image": "drop-count.png",
+        "languages": [],
+        "tags": []
+      },
+      {
+        "name": "ProInit",
+        "description": "Oclif based CLI to automate the long initialization of new development projects.",
+        "link": "https://github.com/ShivamBhasin2002/proinit",
+        "image": "proinit.png",
+        "languages": [],
+        "tags": []
+      },
+      {
+        "name": "Moyyn",
+        "description": "AI based reverse job searching platform.",
+        "link": "https://moyyn.com/",
+        "image": "moyyn.png",
+        "languages": [],
+        "tags": []
+      }
+    ],
+    "openSource": [
+      {
+        "name": "GDSC WOW",
+        "description": "Contributed to website for GDSC WOW 2022.",
+        "link": "https://gdscwow.tech/",
+        "image": "gdscwow.png",
+        "languages": [],
+        "tags": []
+      },
+      {
+        "name": "React Play",
+        "description": "A react project based learning application with a variety of live playgrounds available.",
+        "link": "https://reactplay.io/",
+        "image": "react-play.png",
+        "languages": [],
+        "tags": []
+      }
+    ]
+  }
 }
