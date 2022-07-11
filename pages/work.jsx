@@ -40,9 +40,8 @@ const Works = ({ header, projects }) => {
         onClick={setDarkModeActive}
         header={header}
       >
-        <article className="min-w-[400px] max-w-[770px] px-4 mx-auto ">
-          <BgAnimation darkMode={darkModeActive} />
-          <main className="relative top-[-400px] md:top-[-700px] w-full flex flex-col items-center gap-8">
+        <article className="min-w-[400px] max-w-[770px] px-4 mx-auto pb-24 ">
+          <main className=" w-full flex flex-col items-center gap-8">
             <h2 className="font-title font-[800] text-[32px] md:text-[48px] lg:text-[56px] mb-[8px] md:mb-[12px] lg:mb-[16px] overflow-visible mt-8 text-center">
               My Work
             </h2>

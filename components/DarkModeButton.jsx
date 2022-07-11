@@ -22,7 +22,7 @@ export default function DarkModeButton({ darkMode, onClick }) {
         transition={{ type: "spring", duration: 0.8 }}
       >
         <button
-          className="flex items-center justify-center w-[4rem] h-[4rem] bg-primary dark:bg-primary-dark text-background1 dark:text-background1-dark cursor-pointer transition-colors hover:bg-#fff"
+          className="flex items-center justify-center w-[4rem] h-[4rem] bg-primary dark:bg-primary-dark text-background1 dark:text-background1-dark cursor-pointer transition-colors hover:bg-#fff rounded-full animate-bounce"
           onClick={switchModes}
           aria-label="Scroll to top"
           type="button"
