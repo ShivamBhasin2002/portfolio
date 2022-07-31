@@ -23,7 +23,7 @@
   },
   "about": {
     "image": "profileImage.jpeg",
-    "info": "Skilled and passionate full stack web developer with more than 2yrs of experience in building building various fun porjects and working on industry projects. Love learning new things and progressing alongside ambitious and adaptable people. Positive reputation for quality work, timely construction, and finishing projects at estimated budget as a freelancer.\n Being a growth influencer I love to spread the things I learn to others and also learn from amazing people."
+    "info": "Skilled and passionate full stack web developer with more than 2yrs of experience in building various fun porjects and working on industry projects. Love learning new things and progressing alongside ambitious and adaptable people. Positive reputation for quality work, timely construction, and finishing projects at estimated budget as a freelancer. Being a growth influencer I love to spread the things I learn to others and also learn from amazing people."
   },
   "education": [
     {
@@ -43,9 +43,15 @@
   ],
   "jobs": [
     {
+      "position": "Software Developer Intern",
+      "institution": "Mable AI",
+      "duration": "Aug 2022 - Present",
+      "icon": "remote"
+    },
+    {
       "position": "Frontend React Freelancer",
-      "institution": "Manav Rachna International Institute Of Research And Studies",
-      "duration": "Jun 2022 ~ 2024",
+      "institution": "Moyyn",
+      "duration": "Jun 2022 ~ Present",
       "icon": "remote"
     },
     {
@@ -112,6 +118,14 @@
         "description": "AI based reverse job searching platform.",
         "link": "https://moyyn.com/",
         "image": "moyyn.png",
+        "languages": [],
+        "tags": []
+      },
+      {
+        "name": "Secureverse Landing Page",
+        "description": "Landing page of Secureverse, a web application to check the security of your Crypto  Chain.",
+        "link": "https://secureverse.vercel.app/",
+        "image": "secureverse.png",
         "languages": [],
         "tags": []
       }

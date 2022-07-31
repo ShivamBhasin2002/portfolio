@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useState } from "react";
 
 import Layout from "../components/Layout";
-import BgAnimation from "../components/BackgroundAnimation";
 import data from "../data.json";
 
 const Project = ({ project }) => (
