@@ -15,6 +15,7 @@
       "Student",
       "Full Stack Developer",
       "Freelancer",
+      "GDSC Lead",
       "Growth Enthusiast"
     ],
 
@@ -45,6 +46,12 @@
     {
       "position": "Software Developer Intern",
       "institution": "Mable AI",
+      "duration": "Aug 2022 - Present",
+      "icon": "remote"
+    },
+    {
+      "position": "GDSC Lead",
+      "institution": "Google Developer Student Club",
       "duration": "Aug 2022 - Present",
       "icon": "remote"
     },
