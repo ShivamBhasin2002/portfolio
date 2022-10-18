@@ -20,7 +20,7 @@
     ],
 
     "text": "The purpose of this portfolio website is to quickly become familiar with my few projects and general information about me",
-    "resumeLink": "https://drive.google.com/file/d/1dT7XOOOsskl_0k6FSPp84Hk5JM31bv_c/view?usp=sharing"
+    "resumeLink": "https://drive.google.com/file/d/1U2ygR5wYFQYDfcoNRWkkHX-Fm3CY5dcu/view?usp=sharing"
   },
   "about": {
     "image": "profileImage.jpeg",
@@ -44,6 +44,11 @@
   ],
   "jobs": [
     {
+      "position": "SWE Intern",
+      "institution": "Headout",
+      "duration": "Aug 2022 - Present",
+      "icon": "remote"
+    },{
       "position": "Software Developer Intern",
       "institution": "Mable AI",
       "duration": "Aug 2022 - Present",

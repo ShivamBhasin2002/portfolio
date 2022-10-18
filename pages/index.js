@@ -30,8 +30,8 @@ const Home = ({ jobs, education, about, intro, header }) => {
           <BgAnimation darkMode={darkModeActive} />
         </section>
         <About about={about} />
-          <Education education={education} />
           <WorkExperience jobs={jobs} />
+          <Education education={education} />
       </Layout>
     </>
   );
